@@ -15,22 +15,32 @@ Clona este repositorio en tu máquina local.
 git clone https://github.com/Abacop6999/sail-offers-web.git
 ```
 ## Navega hasta el directorio del proyecto.
-
+```bash
 cd sail-offers-web
-Copia el archivo .env.example y renómbralo a .env.
+```
+## Copia el archivo .env.example y renómbralo a .env.
 
+```bash
 cp .env.example .env
-Genera una clave de aplicación.
-
+```
+## Genera una clave de aplicación.
+```bash
 php artisan key:generate
-Ejecución del Proyecto
+```
+## Ejecución del Proyecto
 Inicia los contenedores Docker usando Laravel Sail.
-
+```bash
 ./vendor/bin/sail up
-Ejecuta las migraciones de la base de datos para crear las tablas necesarias.
+```
 
+## Ejecuta las migraciones de la base de datos para crear las tablas necesarias.
+```bash
 ./vendor/bin/sail artisan migrate
+```
 El proyecto estará disponible en http://localhost.
 
-Detener la Ejecución del Proyecto
-Para detener la ejecución del proyecto y los contenedores Docker, simplemente ejecuta ./vendor/bin/sail stop en la terminal donde se está ejecutando Laravel Sail.
+## Detener la Ejecución del Proyecto
+Para detener la ejecución del proyecto y los contenedores Docker, simplemente ejecuta este comando en la terminal donde se está ejecutando Laravel Sail.
+```bash
+./vendor/bin/sail stop 
+```
