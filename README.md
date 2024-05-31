@@ -28,9 +28,9 @@ cp .env.example .env
 php artisan key:generate
 ```
 ## Ejecución del Proyecto
-Inicia los contenedores Docker usando Laravel Sail.
+Inicia los contenedores Docker usando Laravel Sail en segundo plano.
 ```bash
-./vendor/bin/sail up
+./vendor/bin/sail up -d
 ```
 
 ## Ejecuta las migraciones de la base de datos para crear las tablas necesarias.
