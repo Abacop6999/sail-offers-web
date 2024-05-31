@@ -35,7 +35,7 @@ Inicia los contenedores Docker usando Laravel Sail en segundo plano.
 
 ## Ejecuta las migraciones de la base de datos para crear las tablas necesarias.
 ```bash
-./vendor/bin/sail artisan migrate
+./vendor/bin/sail php artisan migrate
 ```
 El proyecto estará disponible en http://localhost.
 
