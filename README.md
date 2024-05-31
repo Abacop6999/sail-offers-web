@@ -1,4 +1,4 @@
-App Web con Laravel Sail - Ofertas y Códigos Promocionales
+## App Web con Laravel Sail - Ofertas y Códigos Promocionales
 Este proyecto es una aplicación web desarrollada con Laravel Sail que permite gestionar ofertas y códigos promocionales.
 
 Requisitos Previos
