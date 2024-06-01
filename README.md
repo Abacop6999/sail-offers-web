@@ -114,6 +114,12 @@ Para detener la ejecución del proyecto y los contenedores Docker, simplemente e
 ./vendor/bin/sail stop 
 ```
 
+## Ejecutar tests
+Para ejecutar tests unitarios y de integración
+```bash
+./vendor/bin/sail php artisan test
+```
+
 ## Video de instalación
 Aquí puedes ver un video detallado con los pasos de instalación:
 
