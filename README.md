@@ -5,7 +5,7 @@ Este proyecto es una aplicación web desarrollada con Laravel Sail que permite g
 ## Requisitos Previos
 
 - Docker con la opción WSL2 activada. Puedes descargar Docker desde [aquí](https://www.docker.com/get-started).
-- Visual Studio Code (VSCode) para ver o editar el código.
+- Visual Studio Code (VSCode) para ver o editar el código. descargar [aquí](https://code.visualstudio.com/)
 
 ## Instalación y Configuración
 
