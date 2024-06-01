@@ -107,11 +107,9 @@ Construir la imagen Docker:
 
 El proyecto estará disponible en http://localhost:8081.
 
-
-## Detener la Ejecución del Proyecto
-Para detener la ejecución del proyecto y los contenedores Docker, simplemente ejecuta este comando en la terminal donde se está ejecutando Laravel Sail.
+## detener apache si en localhost aparece la pagina de apache2 en lugar de la app de react y laravel
 ```bash
-./vendor/bin/sail stop 
+sudo systemctl stop apache2
 ```
 
 ## Ejecutar tests
@@ -120,7 +118,13 @@ Para ejecutar tests unitarios y de integración
 ./vendor/bin/sail php artisan test
 ```
 
+## Detener la Ejecución del Proyecto
+Para detener la ejecución del proyecto y los contenedores Docker, simplemente ejecuta este comando en la terminal donde se está ejecutando Laravel Sail.
+```bash
+./vendor/bin/sail stop 
+```
+
 ## Video de instalación
 Aquí puedes ver un video detallado con los pasos de instalación:
 
-video [aquí](https://www.docker.com/get-started).
+video [aquí](https://youtu.be/8mMRKeGS9Pg).
