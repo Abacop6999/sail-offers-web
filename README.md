@@ -2,6 +2,11 @@
 
 Este proyecto es una aplicación web desarrollada con Laravel Sail que permite gestionar ofertas y códigos promocionales.
 
+## Video de instalación
+Aquí puedes ver un video detallado con los pasos de instalación:
+
+video [aquí](https://youtu.be/8mMRKeGS9Pg).
+
 ## Requisitos Previos
 
 - Docker con la opción WSL2 activada. Puedes descargar Docker desde [aquí](https://www.docker.com/get-started).
@@ -123,8 +128,3 @@ Para detener la ejecución del proyecto y los contenedores Docker, simplemente e
 ```bash
 ./vendor/bin/sail stop 
 ```
-
-## Video de instalación
-Aquí puedes ver un video detallado con los pasos de instalación:
-
-video [aquí](https://youtu.be/8mMRKeGS9Pg).
